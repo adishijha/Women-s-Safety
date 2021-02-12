@@ -28,7 +28,6 @@
                             <th>Name</th>
                             <th>Relation</th>
                             <th>Email</th>
-                            <th>Phone number</th>
                             <th>Update</th>
                             <th>Delete</th>
                         </tr>
@@ -40,7 +39,6 @@
                             <td>{{contact.name}}</td>
                             <td>{{contact.relation}}</td>
                             <td>{{contact.email}}</td>
-                            <td>{{contact.phone}}</td>
                             <td><a style="color:white; background-color:rgb(26,115,232);" class="btn btn-sm btn-info" href="{% url 'main_app:update_contact' contact.id %}"><b>Update</b></a></td>
                             <td><a style="color:white; background-color:rgb(217,48,37);" class="btn btn-sm btn-danger" href="{% url 'main_app:delete_contact' contact.id %}"><b>Delete</b></a></td>
                         </tr>

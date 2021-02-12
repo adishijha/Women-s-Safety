@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+    <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+    <!-- Compiled and minified JavaScript -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -167,7 +168,9 @@
                             <a class="dropdown-item" style="color: white;" href="/helpline_numbers">Women Helpline Numbers</a>
                         </div>
                     </li>
-
+                    <!-- <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li> -->
                     {% if user.is_authenticated %}
                     <li class="nav-item dropdown" style="margin-top: 3.8%;">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style=" color: white; font-size: 18px;">
@@ -212,18 +215,20 @@
     <footer class="" style="background-color:rgb(21,48,78);padding-bottom:3%; padding-top:3%;margin-top: auto">
         <div class="row" style="margin:0px;">
             <div class="col l6 s12" style="margin-left:15%;">
-                <h2 class="white-text"><b>Rescue</b></h2>
+                <h2 class="white-text"><b>Women Safety Application!!</b></h2>
                 <p class="white-text text-lighten-4" style="color: white;">
-                    <h3 style="color: white;">We are here to help women against crimes . and to aware about laws for women</h3>
+                    <h3 style="color: white;">Motto is to help women against crimes!
+                    </h3>
                 </p>
             </div>
             <div class="row" style="margin-right:10%">
-                <li style="margin:10px;">
-                    <a class="white-text" href="/helpline_numbers">
-                        <h3>Helpline No.</h3>
-                    </a>
-                </li>
-                </ul>
+                <class class="col" style="margin-top:5px;">
+                    <li style="margin:10px;">
+                        <a class="white-text" href="/helpline_numbers">
+                            <h3>Helpline No.</h3>
+                        </a>
+                    </li>
+                </class>
             </div>
         </div>
 
