@@ -12,16 +12,20 @@ Features offered are as follows:
 
 3)There is an emergency button which does the following 4 things:
 
-    i) SMTP module is used to send emails to all the contacts (Can include email Id of State and central gov offices). Mail also
+    i) SMTP module is used to send emails to all the contacts (Can include email Id of State and central gov
     
-    contains the latitude and longitude of the user and it is used with Google API and link opens using Google maps
+    offices). Mail also contains the latitude and longitude of the user and it is used with Google API and 
+    
+    link opens using Google maps
     
     ii) Twilio is used to send calls with pre stored messages. Number should be registered with Twilio.
     
-    iii) Twilio is used to send text messages along with location of the user (can be opened directly with google maps)
+    iii) Twilio is used to send text messages along with location of the user (can be opened directly 
     
-    iv) Messages is sent on twitter using Twitter API (twitter developer account is mandatory). Relevant hashtags are sent on the 
+    with google maps)
     
-    message which changes for each user and this can be tracked by officals.
+    iv) Messages is sent on twitter using Twitter API (twitter developer account is mandatory). Relevant 
+    
+    hashtags are sent on the  message which changes for each user and this can be tracked by officals.
 
 4) Helpline numbers for each state is given and information about women safety is provided too
