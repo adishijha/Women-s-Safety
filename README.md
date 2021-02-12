@@ -22,6 +22,6 @@ Features offered are as follows:
     
     iv) Messages is sent on twitter using Twitter API (twitter developer account is mandatory). Relevant hashtags are sent on the 
     
-    message which chnage sfor each user and this can be tracked by officals.
+    message which changes for each user and this can be tracked by officals.
 
 4) Helpline numbers for each state is given and information about women safety is provided too
