@@ -9,7 +9,7 @@ SECRET_KEY = 'p#dw566&a7f70whcd*$7k9cthul*pshe$xzd-+fiz)^lulf*=@'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1'.'https://womensafetyapplication.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1','https://womensafetyapplication.herokuapp.com/']
 
 
 
