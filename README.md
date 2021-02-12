@@ -2,7 +2,7 @@
 
 This website is designed to alert contacts of a women in case of an emergency. 
 
-Tech used is HTML, CSS, Python, Django and Sqlite
+Tech used is HTML, CSS, Bootstrap, Python, Django and Sqlite
 
 Features offered are as follows:
 
