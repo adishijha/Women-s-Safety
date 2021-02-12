@@ -1,5 +1,3 @@
-
-
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -7,9 +5,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = 'p#dw566&a7f70whcd*$7k9cthul*pshe$xzd-+fiz)^lulf*=@'
 
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','https://womensafetyapplication.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
