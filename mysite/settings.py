@@ -14,6 +14,7 @@ ALLOWED_HOSTS = ['127.0.0.1','https://womensafetyapplication.herokuapp.com/']
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 INSTALLED_APPS = [
+    'whitenoise.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
