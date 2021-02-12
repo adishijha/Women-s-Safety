@@ -35,7 +35,7 @@ Features offered are as follows:
 6) access token code and secret key for twitter needs to be filled in main_app/twitterapi.py and 
    details for Twilio need to be filled in main_app/smscall.py
 
-7)to run website use
+7)to run website, use
 
     python manage.py migrate
 
