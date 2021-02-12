@@ -17,5 +17,4 @@ urlpatterns = [
     path("helpline_numbers/", views.helpline_numbers, name="helpline_numbers"),
     path("women_laws/", views.women_laws, name="women_laws"),
     path('women_rights/', views.women_rights, name='women_rights'),
-    path("developers/", views.developers, name="developers")
               ]

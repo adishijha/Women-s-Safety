@@ -7,7 +7,10 @@ from .models import contact
 from django.contrib.auth.models import User
 from .mail import send_email
 from .location import lat, log, location, city, state
-
+from .smscall import sms
+from .twitterapi import OAuth
+import tweepy
+from datetime import datetime
 
 def home(request):
     context = {}    
@@ -131,7 +134,12 @@ def emergency(request):
     name = request.user.username
     link = "http://www.google.com/maps/place/"+lat+","+log
     for c in contacts:
-        send_email(name, c.email, link)
+        send_email(name, c.email, link,state,city)
+        sms(name,link,state,city)
+   
+    oauth=OAuth()
+    api=tweepy.API(oauth)
+    api.update_status("My location is "+link + "  "+str(datetime.now())+' #help '+'#'+city+" #"+state)
     return render(request,'main_app/emergency_contact.html',context)
 
 
@@ -141,11 +149,6 @@ def helpline_numbers(request):
 
 def women_laws(request):
     return render(request, 'main_app/women_laws.html', {'title': 'women_laws'})
-
-
-def developers(request):
-    return render(request, 'main_app/developers.html', {'title': 'developers'})
-
 
 def women_rights(request):
     return render(request, 'main_app/women_rights.html', {'title': 'women_rights'})

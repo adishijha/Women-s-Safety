@@ -3,7 +3,6 @@ from .models import contact
 from django import forms
 
 
-
 class ContactForm(ModelForm):
     class Meta:
         model = contact
