@@ -7,11 +7,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = 'p#dw566&a7f70whcd*$7k9cthul*pshe$xzd-+fiz)^lulf*=@'
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['https://womensafetyapplication.herokuapp.com/']
+ALLOWED_HOSTS = ['127.0.0.1','https://womensafetyapplication.herokuapp.com/']
 
-
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 INSTALLED_APPS = [
     'django.contrib.admin',
