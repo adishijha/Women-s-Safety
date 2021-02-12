@@ -12,9 +12,9 @@ Features offered are as follows:
 
 3)There is an emergency button which does the following 4 things:
 
-    i) SMTP module is used to send emails to all the contacts (Can include email Id of State and central gov offices). Mail also contains 
+    i) SMTP module is used to send emails to all the contacts (Can include email Id of State and central gov offices). Mail also
     
-    The latitude and longitude of the user and it is used with Google API and link opens using Google maps
+    contains the latitude and longitude of the user and it is used with Google API and link opens using Google maps
     
     ii) Twilio is used to send calls with pre stored messages. Number should be registered with Twilio.
     
