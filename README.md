@@ -1,6 +1,6 @@
 # Women-s-Safety
 
-This website is designed to alert contacts of a women in case of an emergency. 
+This website is designed to alert contacts of a woman in case of an emergency. 
 
 Tech used is HTML, CSS, Bootstrap, Python, Django and Sqlite
 
@@ -28,7 +28,7 @@ Features offered are as follows:
     
     hashtags are sent on the  message which changes for each user and this can be tracked by officals.
 
-4) Helpline numbers for each state is given and information about women safety is provided too
+4) Helpline numbers for each state are given and information about women safety is provided too
 
 5) fill mail id and password in main_app/mail.py
 
