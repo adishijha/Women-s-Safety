@@ -30,13 +30,13 @@ Features offered are as follows:
 
 4) Helpline numbers for each state is given and information about women safety is provided too
 
-5)fill mail id and password in main_app/mail.py
+5) fill mail id and password in main_app/mail.py
 
 6) access token code and secret key for twitter needs to be filled in main_app/twitterapi.py and 
-details for Twilio need to be filled in main_app/smscall.py
+   details for Twilio need to be filled in main_app/smscall.py
 
 7)to run website use
 
-python manage.py migrate
+    python manage.py migrate
 
-python manage.py runserver
+    python manage.py runserver
