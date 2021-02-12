@@ -18,7 +18,7 @@ Features offered are as follows:
     
     link opens using Google maps
     
-    ii) Twilio is used to send calls with pre stored messages. Number should be registered with Twilio.
+    ii) Twilio is used to send calls with information. Number should be registered with Twilio.
     
     iii) Twilio is used to send text messages along with location of the user (can be opened directly 
     
